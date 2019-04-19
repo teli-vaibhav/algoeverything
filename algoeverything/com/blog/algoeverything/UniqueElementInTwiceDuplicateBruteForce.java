@@ -6,18 +6,8 @@ package com.blog.algoeverything;
  * @author Teli
  *
  */
-public class UniqueElementInTwiceDuplicate {
+public class UniqueElementInTwiceDuplicateBruteForce {
 
-	/**
-	 * The naive or the straight forward way to just solve this would be using brute
-	 * force. What is the brute force way? We pick each individual element in the
-	 * array starting from the first and simply compare it with all the remaining
-	 * elements in the array. This gives us an O(n^2) time complexity & O(1) space
-	 * complexity (no additional space).
-	 * 
-	 * @param inputArray
-	 * @return
-	 */
 	public Integer getUniqueElement(int[] inputArray) {
 
 		if (inputArray == null || inputArray.length <= 0)
